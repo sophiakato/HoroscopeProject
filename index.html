@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="HoroscopeProject.js"></script>
+    <link rel="stylesheet" href="Horoscope.css"/>
+
+    <!--<meta charset="UTF-8">-->
+    <title>Horoscope</title>
+</head>
+<body onload="findDays(1)">
+
+<!--<form action="/action_page.php">-->
+<!--<Enter Name: <input type="text" id="myField" value="" size="25">-->
+<!--</form>-->
+
+
+<select id="month" onchange= "findDays(this.value)">
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May</option>
+    <option value="6">June</option>
+    <option value="7">July</option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+</select>
+
+
+
+<select id = "days">
+
+</select>
+<!--year tab?-->
+
+
+<button id="myButton" onclick="submit()">Submit</button>
+
+<div id="sign"></div>
+<div id="image"></div>
+<img src=”img/taurus.png”/>
+
+<div id="message"></div>
+</body>
+
+
+</html>

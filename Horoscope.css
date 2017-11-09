@@ -1,0 +1,47 @@
+/* style all elements in the <body> */
+body {
+    font-family: "Century Gothic";
+    vertical-align: middle;
+}
+
+/* style all the buttons in a page */
+button {
+    width: 50px;
+    color: darkblue;
+}
+
+/* style the element with the id “myId” */
+#myId {
+    color: powderblue;
+}
+
+/*style all elements with the class “fontLarge” */
+.fontLarge{
+    font-size: 16px;
+}
+
+/* style all p elements with the class “center” */
+p.center {
+    text-align: center;
+    color: purple;
+}
+
+/* style all h1, h2 and p elements */
+h1, h2, p {
+    text-align: center;
+    text-weight: bold;
+}
+
+body {
+    background-color: lavender;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: lavender;
+}
+#myDiv {
+    font-size: 10px;
+}
+
